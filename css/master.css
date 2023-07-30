@@ -65,7 +65,19 @@ body {
   width: 20px;
   height: 20px;
 }
-
+@media(max-width:767px){
+  .card {
+    min-width: 395px;
+  }
+  .search button {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .search button img{
+    width: 20px;
+    height: 20px;
+  }
+}
 .states {
   margin-top: 10px;
   display: none;
