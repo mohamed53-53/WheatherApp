@@ -66,8 +66,8 @@ body {
   height: 20px;
 }
 @media(max-width:767px){
-  .card {
-    min-width: 350px;
+  .search{
+    flex-wrap: wrap;
   }
   .search button {
     min-width: 50px;
