@@ -67,7 +67,7 @@ body {
 }
 @media(max-width:767px){
   .card {
-    min-width: 395px;
+    min-width: 350px;
   }
   .search button {
     min-width: 50px;
