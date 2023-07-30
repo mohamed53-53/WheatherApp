@@ -23,7 +23,6 @@ async function cheackWeather(apiUrl) {
         humidity.innerText = data['main']['humidity'] + "%"
         wind.innerText = data['wind']['speed'] + "km/h"
         city.innerText = data['name']
-        console.log(data['weather']['0']['main'])
         weathre_icon.src = `images/${data['weather']['0']['main']}.png`
         states.style = 'display:block'
         details.style = 'display:flex'
